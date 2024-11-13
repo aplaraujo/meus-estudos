@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Classificador de Nível de Heroi</h1>
+
+    <form data-js="level">
+        <label for="hero">Herói: </label>
+        <input type="text" id="hero" data-js="hero">
+        <br>
+        <label for="xp">Pontos de XP: </label>
+        <input type="text" id="xp" data-js="xp">
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <h2 data-js="result"></h2>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
